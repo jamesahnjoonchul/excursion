@@ -3,7 +3,7 @@ body{
   text-align: center;
 }
 
-.heading {
+.heading1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
@@ -12,4 +12,48 @@ body{
     justify-content: space-around;
     margin: 25px auto;
 
+}
+
+.heading3 , .heading2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
+    margin: 25px auto;
+  
+}
+
+
+.subheading1 , .subheading3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aquamarine;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.subheading2{
+    margin-bottom: 25px;
+}
+
+footer{
+    text-align: right;
+    color: gray;
+}
+
+.camp, .phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.camp{
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
